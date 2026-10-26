@@ -1,0 +1,54 @@
+html, body {margin: 0; height: 100%;}
+
+#map {width: 100%; height: 100%; background: #222;}
+
+/* info window (same look as the info boxes in the other maps) */
+
+.info {
+    max-width: 290px;
+    padding: 8px 10px;
+    font: 14px/18px Arial, Helvetica, sans-serif;
+    background: rgba(255,255,255,0.88);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: #444;
+}
+
+.info h4 {
+    margin: 0 0 6px;
+    color: #555;
+}
+
+.info p {
+    margin: 0 0 6px;
+}
+
+.info a {
+    color: #1a5fb4;
+}
+
+.info .note {
+    font-size: 12px;
+    color: #8a5a00;
+}
+
+.info .hint {
+    margin: 8px 0 0;
+    font-size: 12px;
+    color: #888;
+}
+
+
+.leaflet-control-layers-expanded {
+    font: 13px/20px Arial, Helvetica, sans-serif;
+}
+
+.leaflet-control-layers-list {
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+}
+
+
+.tiles-bw {
+    filter: grayscale(1) contrast(2.2) brightness(0.95);
+}
